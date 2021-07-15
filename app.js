@@ -16,3 +16,5 @@ const fromYanToPound = (yen)  => {
 console.log(fromDollarToYen(10))
 console.log(fromEuroToDollar(10))
 console.log(fromYanToPound(10))
+
+module.exports = {fromDollarToYen, fromEuroToDollar, fromYanToPound}
